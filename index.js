@@ -15,6 +15,12 @@ Go code!
 
 const express = require("express");
 const server = express();
+const projectRouter = require("./project");
+const actionRouter = require("./action");
+
+server.use(express.json());
+server.use("/project", projectRouter);
+server.use("/action", actionRouter);
 const port = 5000;
 
 server.get("/", (req, res) => {
