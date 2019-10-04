@@ -25,14 +25,16 @@ In this challenge, create a web API around the following resources: `Projects` a
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Mention two parts of Express that you learned about this week.
-
+      Routing allows developers to separate endpoints into multiple pages for better organization.
+      Express is light-weight and it is compatible to connect middleware.
 - [ ] Describe Middleware?
-
+      Middleware is a function that can be invoked before a CRUD operation is done to a certain endpoint.
 - [ ] Describe a Resource?
-
+      Resources is basically any data that get passed via URLs. It can have multiple representation.
 - [ ] What can the API return to help clients know if a request was successful?
-
+      Code and messages. Code 200 signifies that the request is successful
 - [ ] How can we partition our application into sub-applications?
+      Routing can be used to partition applications.
 
 ## Project Setup
 
